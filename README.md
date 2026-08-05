@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Amine Mabrouk
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Full-Stack+Developer;Angular+%2B+Next.js+%2B+Node.js+%2B+Laravel;Building+production-grade+web+platforms;Open+to+new+opportunities" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Full-Stack+Developer;Angular+%2B+Next.js+%2B+Node.js+%2B+Laravel;Smart+Contracts+%2B+Solidity;Building+production-grade+web+platforms;Open+to+new+opportunities" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -12,10 +12,12 @@
 
 ### 👨‍💻 About Me
 
-I build secure, high-performance web applications and digital solutions that help businesses scale. Specializing in reliable software architecture, real-time features, and data-driven systems — turning complex challenges like cloud migrations, system security, and automated monitoring into seamless, user-friendly experiences.
+I build secure, high-performance web applications and digital solutions that help businesses scale. Specializing in reliable software architecture, real-time features, data-driven systems, and blockchain-based escrow — turning complex challenges like cloud migrations, system security, and automated monitoring into seamless, user-friendly experiences.
 
 - 🏗️ Co-engineered **Nouara**, a mission-critical telecom platform (Angular 20 + Laravel 12) handling billing, eligibility, and ticket tracking
 - 🎥 Built **Rizz**, a real-time WebRTC video chat app with sub-1.5s peer-to-peer connection
+- ⛓️ Engineered **TrustlessEscrow**, a trust-minimized on-chain escrow state machine (Solidity + Foundry + Next.js) with arbitration, deployed on Sepolia — [live demo](https://trustless-escrow-demo.vercel.app)
+- 💰 Built **BudgetIQ**, an AI-powered finance manager with a Gemini AI chatbot and Supabase real-time dashboards — [live demo](https://budgetiq-two.vercel.app)
 - 🗣️ Prototyped a real-time bilingual **AI voice translation assistant** for live phone calls (Asterisk + FastAGI + Hugging Face + Flask)
 - 💼 Currently open to new full-stack opportunities
 
@@ -40,10 +42,18 @@ Case studies for all of these live on my **[portfolio](https://my-portfolio-seve
 ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
+#### ⛓️ Blockchain / Web3
+![Solidity](https://img.shields.io/badge/solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white)
+![Foundry](https://img.shields.io/badge/Foundry-0A0A0A?style=for-the-badge&logo=foundry&logoColor=white)
+![Ethereum](https://img.shields.io/badge/ethereum-%233C3C3D.svg?style=for-the-badge&logo=ethereum&logoColor=white)
+![wagmi](https://img.shields.io/badge/wagmi-000000?style=for-the-badge&logo=wagmi&logoColor=white)
+![viem](https://img.shields.io/badge/viem-000000?style=for-the-badge&logo=viem&logoColor=white)
+
 #### 🐍 Languages, AI & Tools
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=for-the-badge)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
