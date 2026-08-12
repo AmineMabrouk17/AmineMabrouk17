@@ -1,80 +1,113 @@
-# 👋 Hi, I'm Amine Mabrouk
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Full-Stack+Developer;Angular+%2B+Next.js+%2B+Node.js+%2B+Laravel;Smart+Contracts+%2B+Solidity;Building+production-grade+web+platforms;Open+to+new+opportunities" alt="Typing SVG" />
-</p>
+# Amine Mabrouk
+### Full-Stack Developer · Web3 Specialist · AI Integrator
 
-<p align="center">
-  <a href="https://my-portfolio-seven-chi-94.vercel.app"><b>🌐 Portfolio</b></a> ·
-  <a href="mailto:amx72001@gmail.com"><b>📧 Email</b></a> ·
-  📍 Tunis, Tunisia
-</p>
+📍 Tunis, Tunisia &nbsp;|&nbsp; 🌐 [Portfolio](https://my-portfolio-seven-chi-94.vercel.app) &nbsp;|&nbsp; 📧 [Email](mailto:amx72001@gmail.com)
+
+<br />
+
+[![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)](#)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)](#)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](#)
+[![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)](#)
+[![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)](#)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](#)
+
+---
 
 ### 👨‍💻 About Me
 
-I build secure, high-performance web applications and digital solutions that help businesses scale. Specializing in reliable software architecture, real-time features, data-driven systems, and blockchain-based escrow — turning complex challenges like cloud migrations, system security, and automated monitoring into seamless, user-friendly experiences.
-
-- 🏗️ Co-engineered **Nouara**, a mission-critical telecom platform (Angular 20 + Laravel 12) handling billing, eligibility, and ticket tracking
-- 🎥 Built **Rizz**, a real-time WebRTC video chat app with sub-1.5s peer-to-peer connection
-- ⛓️ Engineered **TrustlessEscrow**, a trust-minimized on-chain escrow state machine (Solidity + Foundry + Next.js) with arbitration, deployed on Sepolia — [live demo](https://trustless-escrow-demo.vercel.app)
-- 💰 Built **BudgetIQ**, an AI-powered finance manager with a Gemini AI chatbot and Supabase real-time dashboards — [live demo](https://budgetiq-two.vercel.app)
-- 🗣️ Prototyped a real-time bilingual **AI voice translation assistant** for live phone calls (Asterisk + FastAGI + Hugging Face + Flask)
-- 💼 Currently open to new full-stack opportunities
-
-Case studies for all of these live on my **[portfolio](https://my-portfolio-seven-chi-94.vercel.app/#projects)**.
+I design and deploy secure, high-performance web platforms, sub-second real-time video/voice systems, and decentralized smart contract architectures.
 
 ---
 
-### 🛠 Tech Stack
+### 📦 Project Cards
 
-#### 🌐 Frontend
-![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
-![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <div align="center">
+        <h3>⛓️ TrustlessEscrow</h3>
+        <p><b>Web3 On-Chain Escrow</b></p>
+        <p>Trust-minimized on-chain escrow state machine with arbitration deployed on Sepolia.</p>
+        <p><code>Solidity</code> · <code>Foundry</code> · <code>Next.js</code> · <code>Wagmi</code></p>
+        <a href="https://trustless-escrow-demo.vercel.app" target="_blank">
+          <img src="https://img.shields.io/badge/🚀_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+        </a>
+      </div>
+    </td>
+    <td width="50%" valign="top">
+      <div align="center">
+        <h3>💰 BudgetIQ</h3>
+        <p><b>AI Finance Manager</b></p>
+        <p>Real-time financial analytics dashboard powered by a conversational Gemini AI assistant.</p>
+        <p><code>Next.js</code> · <code>Supabase</code> · <code>Gemini AI</code> · <code>Tailwind</code></p>
+        <a href="https://budgetiq-two.vercel.app" target="_blank">
+          <img src="https://img.shields.io/badge/🚀_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+        </a>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <div align="center">
+        <h3>🏗️ Nouara Telecom</h3>
+        <p><b>Enterprise Platform</b></p>
+        <p>Mission-critical system managing automated customer billing, eligibility, and ticketing.</p>
+        <p><code>Angular 20</code> · <code>Laravel 12</code> · <code>PostgreSQL</code></p>
+        <img src="https://img.shields.io/badge/⚡_Enterprise_System-121212?style=for-the-badge" />
+      </div>
+    </td>
+    <td width="50%" valign="top">
+      <div align="center">
+        <h3>🎥 Rizz Video</h3>
+        <p><b>Real-Time WebRTC App</b></p>
+        <p>Peer-to-peer video streaming web app featuring sub-1.5s connection speeds.</p>
+        <p><code>React</code> · <code>Node.js</code> · <code>WebRTC</code> · <code>Socket.io</code></p>
+        <img src="https://img.shields.io/badge/⚡_Real_Time-121212?style=for-the-badge" />
+      </div>
+    </td>
+  </tr>
+</table>
 
-#### ⚙️ Backend & Databases
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
-![Flask](https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+<table width="100%">
+  <tr>
+    <td width="100%" valign="top">
+      <div align="center">
+        <h3>🗣️ AI Voice Translation Assistant</h3>
+        <p>Prototyped a real-time bilingual voice translation assistant integrated into live phone call systems (Asterisk telephony).</p>
+        <p><code>Python</code> · <code>Asterisk</code> · <code>FastAGI</code> · <code>Hugging Face</code> · <code>Flask</code></p>
+      </div>
+    </td>
+  </tr>
+</table>
 
-#### ⛓️ Blockchain / Web3
-![Solidity](https://img.shields.io/badge/solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white)
-![Foundry](https://img.shields.io/badge/Foundry-0A0A0A?style=for-the-badge&logo=foundry&logoColor=white)
-![Ethereum](https://img.shields.io/badge/ethereum-%233C3C3D.svg?style=for-the-badge&logo=ethereum&logoColor=white)
-![wagmi](https://img.shields.io/badge/wagmi-000000?style=for-the-badge&logo=wagmi&logoColor=white)
-![viem](https://img.shields.io/badge/viem-000000?style=for-the-badge&logo=viem&logoColor=white)
-
-#### 🐍 Languages, AI & Tools
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=for-the-badge)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+<br />
 
 ---
 
-### 📫 Connect with me
-
-<p align="left">
-<a href="https://my-portfolio-seven-chi-94.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" />
-</a>
-<a href="mailto:amx72001@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-</p>
-
----
-
-### 📊 GitHub Stats
+### 🛠 Tech Arsenal
 
 <p align="center">
-<img width="49%" src="https://github-readme-stats-git-master-rickstaa.vercel.app/api?username=AmineMabrouk17&show_icons=true&theme=tokyonight&hide_border=true" />
-<img width="43%" src="https://github-readme-stats-git-master-rickstaa.vercel.app/api/top-langs/?username=AmineMabrouk17&layout=compact&theme=tokyonight&hide_border=true" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=angular,nextjs,react,ts,tailwind,nodejs,laravel,flask,postgres,supabase,solidity,python,docker,git&perline=7" />
+  </a>
 </p>
+
+---
+
+### 📊 GitHub Dashboard
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AmineMabrouk17&show_icons=true&theme=dark&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmineMabrouk17&layout=compact&theme=dark&hide_border=true" width="43%" />
+</p>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AmineMabrouk17&theme=github-compact&hide_border=true&area=true" width="92%" />
+
+<br /><br />
+
+<img src="https://komarev.com/ghpvc/?username=AmineMabrouk17&color=00f2fe&style=flat-square&label=PROFILE+VIEWS" />
+
+</div>
