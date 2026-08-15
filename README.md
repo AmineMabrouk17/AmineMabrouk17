@@ -168,13 +168,12 @@ I design and deploy **secure, high-performance web platforms**, **sub-second rea
 ### 📊 GitHub Dashboard
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AmineMabrouk17&show_icons=true&theme=dark&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmineMabrouk17&layout=compact&theme=dark&hide_border=true" width="43%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=AmineMabrouk17&show_icons=true&theme=dark&hide_border=true&count_private=true" width="47%" />
+  <img src="https://streak-stats.demolab.com?user=AmineMabrouk17&theme=dark&hide_border=true" width="45%" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=AmineMabrouk17&theme=dark&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=AmineMabrouk17&theme=dark&hide_border=true" width="43%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmineMabrouk17&layout=compact&theme=dark&hide_border=true" width="50%" />
 </p>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=AmineMabrouk17&theme=github-compact&hide_border=true&area=true" width="92%" />
