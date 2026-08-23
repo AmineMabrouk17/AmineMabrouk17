@@ -167,13 +167,23 @@ I design and deploy **secure, high-performance web platforms**, **sub-second rea
 
 ### 📊 GitHub Dashboard
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=AmineMabrouk17&theme=dark&hide_border=true" width="92%" />
-</p>
+<div align="center">
+  <a href="https://github.com/AmineMabrouk17">
+    <img src="https://streak-stats.demolab.com?user=AmineMabrouk17&theme=dark&hide_border=true&background=0d1117&ring=00f2fe&fire=00f2fe&currStreakLabel=00f2fe&sideLabels=999999" width="49%" alt="GitHub Streak Stats" />
+  </a>
+  <a href="https://github.com/AmineMabrouk17">
+    <img src="https://github-readme-stats.vercel.app/api?username=AmineMabrouk17&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00f2fe&icon_color=00f2fe&text_color=c9d1d9" width="49%" alt="GitHub Stats" />
+  </a>
+  <br /><br />
+  <a href="https://github.com/AmineMabrouk17">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmineMabrouk17&layout=compact&hide_border=true&bg_color=0d1117&title_color=00f2fe&text_color=c9d1d9" width="49%" alt="Top Languages" />
+  </a>
+  <a href="https://github.com/AmineMabrouk17">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=AmineMabrouk17&bg_color=0d1117&color=00f2fe&line=00f2fe&point=ffffff&hide_border=true&area=true" width="49%" alt="Activity Graph" />
+  </a>
+</div>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AmineMabrouk17&theme=github-compact&hide_border=true&area=true" width="92%" />
-
-<br /><br />
+<br />
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=AmineMabrouk17&color=00f2fe&style=flat-square&label=PROFILE+VIEWS" />
