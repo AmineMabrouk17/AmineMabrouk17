@@ -30,9 +30,7 @@
 
 ### 👨‍💻 About Me
 
-I design and deploy **secure, high-performance web platforms**, **sub-second real-time video/voice systems**, and **decentralized smart contract architectures**. Currently building production-ready apps with Next.js, React, Angular, and modern cloud infrastructure — from AI assistants to on-chain protocols.
-
-> "Engineering is about turning complex challenges into seamless, user-friendly experiences that drive real business value."
+I'm a software engineer who builds and owns products end to end — data model, API contracts, UI, and the deploy that keeps them alive. I work mostly in TypeScript/Next.js, Angular, Laravel and Solidity, and I care about the unglamorous parts that make software real: schemas that don't fall over, auth that's actually secure, and features that work when a user actually clicks them. I use AI daily to move faster — scaffolding, research, boilerplate — but I'm the one deciding what to abstract, what to test, and where the security boundary lives.
 
 ---
 
