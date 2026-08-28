@@ -156,10 +156,6 @@ I'm a software engineer who builds and owns products end to end — data model, 
 
 [**ExportLLMExtension**](https://github.com/AmineMabrouk17/ExportLLMExtension) · [**text2excalidraw**](https://github.com/AmineMabrouk17/text2excalidraw) · [**MustacharAI**](https://github.com/AmineMabrouk17/MustacharAI) · [**My-Portfolio**](https://github.com/AmineMabrouk17/My-Portfolio)
 
-#### 🏗️ Enterprise Experience
-
-> **Nouara Telecom Platform** — Mission-critical telecom platform managing automated customer billing, eligibility, and ticketing (<code>Angular 20</code> · <code>Laravel 12</code> · <code>PostgreSQL</code>). Built at **Infraway**.
-
 ---
 
 ### 🛠 Tech Arsenal
