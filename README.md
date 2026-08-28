@@ -6,7 +6,7 @@
 
 ### Full-Stack Developer · Web3 Specialist · AI Integrator
 
-**📍 Tunis, Tunisia** &nbsp;·&nbsp; **🌐 [Portfolio](https://my-portfolio-seven-chi-94.vercel.app)** &nbsp;·&nbsp; **📧 [Email](mailto:amx72001@gmail.com)**
+**📍 Tunis, Tunisia** &nbsp;·&nbsp; **🌐 [Portfolio](https://my-portfolio-seven-chi-94.vercel.app)** &nbsp;·&nbsp; **📧 [Email](mailto:amx72001@gmail.com)** &nbsp;·&nbsp; **💼 [LinkedIn](https://www.linkedin.com/in/amine-mabrouk)**
 
 <br />
 
@@ -125,6 +125,20 @@ I design and deploy **secure, high-performance web platforms**, **sub-second rea
   <tr>
     <td width="50%" valign="top">
       <div align="center">
+        <h3>🎮 GameStore TN</h3>
+        <p><b>Gen-Z Gaming Marketplace</b></p>
+        <p>Tunisia-focused marketplace for gaming accounts — PES/eFootball, Free Fire & more, with secure listings and checkout.</p>
+        <p><code>Next.js</code> · <code>Cloudflare Workers</code> · <code>PostgreSQL</code></p>
+        <a href="https://gamestore-tn.cast-cue.workers.dev" target="_blank">
+          <img src="https://img.shields.io/badge/🚀_Live_Demo-7c3aed?style=for-the-badge&logo=cloudflare&logoColor=white" />
+        </a>
+        <a href="https://github.com/AmineMabrouk17/GameStore-TN" target="_blank">
+          <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+      </div>
+    </td>
+    <td width="50%" valign="top">
+      <div align="center">
         <h3>⚡ Lead Gen Landing Page</h3>
         <p><b>Ultra-Fast Conversion Page</b></p>
         <p>A 10 KB static landing page with a perfect Lighthouse 100/100/100 — GTM/GA4/Meta Pixel tracking and serverless Formspree forms.</p>
@@ -137,17 +151,12 @@ I design and deploy **secure, high-performance web platforms**, **sub-second rea
         </a>
       </div>
     </td>
-    <td width="50%" valign="top">
-      <div align="center">
-        <h3>🎥 Rizz Video</h3>
-        <p><b>Real-Time WebRTC App</b></p>
-        <p>Peer-to-peer video streaming monorepo featuring sub-1.5s connection establishment and real-time peer matching.</p>
-        <p><code>Next.js</code> · <code>Express</code> · <code>WebRTC</code> · <code>Supabase</code></p>
-        <img src="https://img.shields.io/badge/⚡_Real_Time-121212?style=for-the-badge" />
-      </div>
-    </td>
   </tr>
 </table>
+
+#### 🧩 More Repos
+
+[**ExportLLMExtension**](https://github.com/AmineMabrouk17/ExportLLMExtension) · [**text2excalidraw**](https://github.com/AmineMabrouk17/text2excalidraw) · [**MustacharAI**](https://github.com/AmineMabrouk17/MustacharAI) · [**My-Portfolio**](https://github.com/AmineMabrouk17/My-Portfolio)
 
 #### 🏗️ Enterprise Experience
 
