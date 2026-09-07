@@ -181,9 +181,6 @@ I'm a software engineer who builds and owns products end to end — data model, 
   <a href="https://github.com/AmineMabrouk17">
     <img src="https://github-readme-stats-psi-eight-83.vercel.app/api/top-langs/?username=AmineMabrouk17&layout=compact&hide_border=true&bg_color=0d1117&title_color=00f2fe&text_color=c9d1d9" width="49%" alt="Top Languages" />
   </a>
-  <a href="https://github.com/AmineMabrouk17">
-   <img src="https://ghchart.rshah.org/00f2fe/aminemabrouk17" width="49%" alt="Amine's GitHub Contributions" />
-  </a>
 </div>
 
 <br />
