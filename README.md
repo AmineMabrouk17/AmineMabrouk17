@@ -44,8 +44,9 @@ These aren't demo repos. Each one is live, has real users (even if it's just me)
       <p>Real-time market intelligence terminal — Binance WebSocket streaming, Yahoo Finance quotes, TradingView-style charts, browser-native price alerts, and a multi-provider AI chat assistant (Gemini · Groq · OpenAI · Anthropic) so you're not locked into one vendor.</p>
       <p><code>Next.js 16</code> · <code>WebSocket</code> · <code>lightweight-charts</code> · <code>SWR</code> · <code>Turborepo</code></p>
       <p>
-        <a href="https://crypto-stocks-web-taupe.vercel.app"><b>↗ Live</b></a> &nbsp;·&nbsp;
-        <a href="https://github.com/AmineMabrouk17/crypto-stocks">Source</a>
+        <a href="https://crypto-stocks-web-taupe.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-4f46e5?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
+        &nbsp;
+        <a href="https://github.com/AmineMabrouk17/crypto-stocks"><img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" /></a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -54,8 +55,9 @@ These aren't demo repos. Each one is live, has real users (even if it's just me)
       <p>Trust-minimized escrow state machine with dispute arbitration, deployed on Sepolia. No admin keys, no upgrade path I control, no fees. Read the contract before you read the README — that's the point.</p>
       <p><code>Solidity</code> · <code>Foundry</code> · <code>wagmi</code> · <code>viem</code></p>
       <p>
-        <a href="https://trustless-escrow-demo.vercel.app"><b>↗ Live</b></a> &nbsp;·&nbsp;
-        <a href="https://github.com/AmineMabrouk17/nextjs-solidity-escrow">Source</a>
+        <a href="https://trustless-escrow-demo.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-4f46e5?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
+        &nbsp;
+        <a href="https://github.com/AmineMabrouk17/nextjs-solidity-escrow"><img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" /></a>
       </p>
     </td>
   </tr>
@@ -66,8 +68,9 @@ These aren't demo repos. Each one is live, has real users (even if it's just me)
       <p>Episode-level watchlist on Cloudflare Workers + D1. TMDB/Trakt search, half-star ratings, private autosaved notes, and a watchlist roulette for when you can't decide what to start next.</p>
       <p><code>Next.js</code> · <code>Cloudflare Workers</code> · <code>D1</code> · <code>Better Auth</code></p>
       <p>
-        <a href="https://cast-cue.cast-cue.workers.dev"><b>↗ Live</b></a> &nbsp;·&nbsp;
-        <a href="https://github.com/AmineMabrouk17/Cast-Cue">Source</a>
+        <a href="https://cast-cue.cast-cue.workers.dev"><img src="https://img.shields.io/badge/LIVE_DEMO-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Live Demo" /></a>
+        &nbsp;
+        <a href="https://github.com/AmineMabrouk17/Cast-Cue"><img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" /></a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -76,8 +79,9 @@ These aren't demo repos. Each one is live, has real users (even if it's just me)
       <p>Budget planner where a conversational Gemini assistant turns "I spent 12 dinars on coffee" into a logged transaction and an updated dashboard. No forms. No friction.</p>
       <p><code>Next.js</code> · <code>Supabase</code> · <code>Gemini AI</code> · <code>Recharts</code></p>
       <p>
-        <a href="https://budgetiq-two.vercel.app"><b>↗ Live</b></a> &nbsp;·&nbsp;
-        <a href="https://github.com/AmineMabrouk17/BudgetIQ">Source</a>
+        <a href="https://budgetiq-two.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-4f46e5?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
+        &nbsp;
+        <a href="https://github.com/AmineMabrouk17/BudgetIQ"><img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" /></a>
       </p>
     </td>
   </tr>
@@ -88,8 +92,9 @@ These aren't demo repos. Each one is live, has real users (even if it's just me)
       <p>Catalog, cart, Stripe Checkout, verified-only reviews, admin analytics, order fulfillment. The kind of thing agencies charge $30k for, open-sourced.</p>
       <p><code>Next.js</code> · <code>Supabase</code> · <code>Stripe</code> · <code>PostgreSQL</code></p>
       <p>
-        <a href="https://ecommerce-website-puce-beta.vercel.app/"><b>↗ Live</b></a> &nbsp;·&nbsp;
-        <a href="https://github.com/AmineMabrouk17/ecommerce-website">Source</a>
+        <a href="https://ecommerce-website-puce-beta.vercel.app/"><img src="https://img.shields.io/badge/LIVE_DEMO-4f46e5?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
+        &nbsp;
+        <a href="https://github.com/AmineMabrouk17/ecommerce-website"><img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" /></a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -98,8 +103,9 @@ These aren't demo repos. Each one is live, has real users (even if it's just me)
       <p>Marketplace for gaming accounts — PES/eFootball, Free Fire, etc. — with secure listings and checkout. Local-first because nobody else was doing it.</p>
       <p><code>Next.js</code> · <code>Cloudflare Workers</code> · <code>PostgreSQL</code></p>
       <p>
-        <a href="https://gamestore-tn.cast-cue.workers.dev"><b>↗ Live</b></a> &nbsp;·&nbsp;
-        <a href="https://github.com/AmineMabrouk17/GameStore-TN">Source</a>
+        <a href="https://gamestore-tn.cast-cue.workers.dev"><img src="https://img.shields.io/badge/LIVE_DEMO-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Live Demo" /></a>
+        &nbsp;
+        <a href="https://github.com/AmineMabrouk17/GameStore-TN"><img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" /></a>
       </p>
     </td>
   </tr>
