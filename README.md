@@ -138,16 +138,13 @@ Not a "tech stack" list — the actual tools I'd pick tomorrow if I had to start
 ### GitHub
 
 <div align="center">
+  <!-- Streak card (kept from demolab) -->
   <a href="https://github.com/AmineMabrouk17">
-    <img src="https://streak-stats.demolab.com?user=AmineMabrouk17&theme=dark&hide_border=true&background=0d1117&ring=00f2fe&fire=00f2fe&currStreakLabel=00f2fe&sideLabels=999999" width="49%" alt="Streak Stats" />
-  </a>
-  <a href="https://github.com/AmineMabrouk17">
-    <img src="https://github-readme-stats-psi-eight-83.vercel.app/api?username=AmineMabrouk17&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00f2fe&icon_color=00f2fe&text_color=c9d1d9" width="49%" alt="Stats" />
+    <img src="https://streak-stats.demolab.com?user=AmineMabrouk17&theme=dark&hide_border=true&background=0d1117&ring=00f2fe&fire=00f2fe&currStreakLabel=00f2fe&sideLabels=999999" width="60%" alt="Streak Stats" />
   </a>
   <br /><br />
-  <a href="https://github.com/AmineMabrouk17">
-    <img src="https://github-readme-stats-psi-eight-83.vercel.app/api/top-langs/?username=AmineMabrouk17&layout=compact&hide_border=true&bg_color=0d1117&title_color=00f2fe&text_color=c9d1d9" width="49%" alt="Top Languages" />
-  </a>
+  <!-- Generated statically by your GitHub Action (100% uptime, no rate limits) -->
+  <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
 </div>
 
 <br />
@@ -155,12 +152,3 @@ Not a "tech stack" list — the actual tools I'd pick tomorrow if I had to start
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=AmineMabrouk17&color=00f2fe&style=flat-square&label=PROFILE+VIEWS" />
 </p>
-
----
-
-<div align="center">
-  <sub>
-  Open to full-stack roles, freelance, and collaborations.<br />
-  Reply rate is faster than my deploy time — <a href="mailto:amx72001@gmail.com">amx72001@gmail.com</a>
-  </sub>
-</div>
