@@ -22,9 +22,6 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Africa/Tunis
           
-          # Match your dark theme
-          config_theme: dark
-          
           # Plugins
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
