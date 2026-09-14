@@ -1,31 +1,53 @@
-name: Generate Profile Stats
+name: Generate Profile Cards
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *" # Runs daily at midnight
+  workflow_dispatch:     # Allows manual trigger
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
 
-      - name: Download SVG Cards
-        run: |
-          # Fetch Stats Card
-          curl -s "https://github-readme-stats-psi-eight-83.vercel.app/api?username=AmineMabrouk17&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00f2fe&icon_color=00f2fe&text_color=c9d1d9" -o stats.svg
+      # 1. Streak Stats Card (Local Action, no demolab server)
+      - name: Generate Streak Stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: 'user=AmineMabrouk17&theme=dark&hide_border=true&background=0d1117&ring=00f2fe&fire=00f2fe&currStreakLabel=00f2fe&sideLabels=999999'
+          path: streak.svg
+          token: ${{ secrets.METRICS_TOKEN }}
 
-          # Fetch Top Languages Card
-          curl -s "https://github-readme-stats-psi-eight-83.vercel.app/api/top-langs/?username=AmineMabrouk17&layout=compact&hide_border=true&bg_color=0d1117&title_color=00f2fe&text_color=c9d1d9" -o top-langs.svg
+      # 2. General Stats Card (Local Action, no Vercel server)
+      - name: Generate Stats Card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: 'username=AmineMabrouk17&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00f2fe&icon_color=00f2fe&text_color=c9d1d9'
+          path: stats.svg
+          token: ${{ secrets.METRICS_TOKEN }}
 
-      - name: Commit & Push changes
+      # 3. Top Languages Card (Local Action, no Vercel server)
+      - name: Generate Top Languages Card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: 'username=AmineMabrouk17&layout=compact&hide_border=true&bg_color=0d1117&title_color=00f2fe&text_color=c9d1d9'
+          path: top-langs.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+
+      # 4. Commit all 3 SVGs directly into your repo
+      - name: Commit Generated Cards
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add stats.svg top-langs.svg
-          git commit -m "Update stats cards" || exit 0
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add streak.svg stats.svg top-langs.svg
+          git commit -m "chore: update profile stat cards" || exit 0
           git push
