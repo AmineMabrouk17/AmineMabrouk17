@@ -1,31 +1,31 @@
-name: Metrics
+name: Generate Profile Stats
 
 on:
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
-  push:
-    branches: ["main"]
 
 jobs:
-  github-metrics:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: Metrics
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: AmineMabrouk17
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: Africa/Tunis
-          
-          # Plugins
-          plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
-          plugin_lines: yes
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download SVG Cards
+        run: |
+          # Fetch Stats Card
+          curl -s "https://github-readme-stats-psi-eight-83.vercel.app/api?username=AmineMabrouk17&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00f2fe&icon_color=00f2fe&text_color=c9d1d9" -o stats.svg
+
+          # Fetch Top Languages Card
+          curl -s "https://github-readme-stats-psi-eight-83.vercel.app/api/top-langs/?username=AmineMabrouk17&layout=compact&hide_border=true&bg_color=0d1117&title_color=00f2fe&text_color=c9d1d9" -o top-langs.svg
+
+      - name: Commit & Push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats.svg top-langs.svg
+          git commit -m "Update stats cards" || exit 0
+          git push
