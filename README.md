@@ -138,17 +138,10 @@ Not a "tech stack" list — the actual tools I'd pick tomorrow if I had to start
 ### GitHub
 
 <div align="center">
-  <!-- Streak card (kept from demolab) -->
   <a href="https://github.com/AmineMabrouk17">
-    <img src="https://streak-stats.demolab.com?user=AmineMabrouk17&theme=dark&hide_border=true&background=0d1117&ring=00f2fe&fire=00f2fe&currStreakLabel=00f2fe&sideLabels=999999" width="60%" alt="Streak Stats" />
+    <img src="https://streak-stats.demolab.com?user=AmineMabrouk17&theme=dark&hide_border=true&background=0d1117&ring=00f2fe&fire=00f2fe&currStreakLabel=00f2fe&sideLabels=999999" width="49%" alt="Streak Stats" />
   </a>
+  <img src="./stats.svg" width="49%" alt="GitHub Stats" />
   <br /><br />
-  <!-- Generated statically by your GitHub Action (100% uptime, no rate limits) -->
-  <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
+  <img src="./top-langs.svg" width="49%" alt="Top Languages" />
 </div>
-
-<br />
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=AmineMabrouk17&color=00f2fe&style=flat-square&label=PROFILE+VIEWS" />
-</p>
