@@ -89,3 +89,11 @@
 **Why:** The user installed the skill and asked for the profile text to be cleaned. The previous draft carried the usual tells: an em dash in most paragraphs, "not X, it's Y" constructions, tailing negations such as "no hourly surprises", and emoji card headings.
 
 **Alternative considered:** Keeping the punchier fragments ("Projects break at the seams."). Rejected because the skill's sentence rules apply to all prose outside quotes, and the idea survives as a complete sentence.
+
+## 2026-11-22 — Profile prose cleaned with the unslop skill
+
+**Decision:** The README text now follows the `unslop` rules: no em dashes, no contractions, no fragment sentences, sentences of 25 words or fewer, no inline bold labels inside paragraphs, and no emoji in headings. The section heading "Let's talk" became "Talk to me".
+
+**Why:** The user installed the skill and asked for the profile to be unslopped. The draft had the usual tells in almost every paragraph: em dashes as rhythm, "not X but Y" contrasts, tailing negations such as "no hourly surprises", and bold labels glued to the start of sentences.
+
+**Alternative considered:** Keeping the short punchy fragments ("Projects break at the seams."). Rejected because the skill applies its sentence rules to all prose outside quotes, and the same claim survives as a complete sentence.
