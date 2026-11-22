@@ -10,7 +10,7 @@
 &nbsp;
 <a href="https://my-portfolio-seven-chi-94.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-4f46e5?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 &nbsp;
-<a href="https://www.linkedin.com/in/amine-mabrouk"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/amine-mabroukk/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 
 **You describe the product. I ship it — tested, deployed, handed over working.**
 
@@ -155,7 +155,7 @@ Send one short paragraph: what you're building, when you need it, and roughly wh
 
 <a href="mailto:amx72001@gmail.com"><img src="https://img.shields.io/badge/EMAIL_ME-amx72001@gmail.com-2ea44f?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 &nbsp;
-<a href="https://www.linkedin.com/in/amine-mabrouk"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/amine-mabroukk/"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 
 ---
 
