@@ -73,3 +73,11 @@
 **Why:** A blank "contact me" pushes the work of writing the first message onto the client, and a human rarely sends it. Asking for a budget range up front filters out enquiries that were never going to pay, which is the main cost of freelancing.
 
 **Alternative considered:** "I reply within one working day" and "two projects at a time". Both dropped — they are commitments only the user can make, and he did not confirm either.
+
+## 2026-11-22 — Profile prose follows the unslop rules
+
+**Decision:** The README prose was edited with the `unslop` skill: no em dashes, no contractions, no sentence over 25 words, no fragments, no inline bold labels inside paragraphs, no emoji in headings, and no binary-contrast or tailing-negation formulas.
+
+**Why:** The user installed the skill and asked for the text to be cleaned. The draft carried the usual tells: em dashes in nearly every paragraph, "not X, it's Y" constructions, tailing negations such as "no hourly surprises", and emoji headings.
+
+**Alternative considered:** Keeping the punchier fragments ("Projects break at the seams."). Rejected because the skill's sentence rules apply to prose outside quotes, and the same idea survives as a complete sentence.
