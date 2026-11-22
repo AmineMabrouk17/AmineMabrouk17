@@ -4,7 +4,7 @@
 
 # Amine Mabrouk
 
-**Full-stack engineer in Tunis.** I build web products end to end — database schema, API, interface, payments, deploy — and hand them over working.
+**Full-stack engineer in Tunis.** I take web products from an empty repo to a live URL — database schema, API, interface, payments, and the CI that keeps it running.
 
 <a href="mailto:amx72001@gmail.com"><img src="https://img.shields.io/badge/AVAILABLE_FOR_FREELANCE-2ea44f?style=for-the-badge&logo=gmail&logoColor=white" alt="Available for freelance work" /></a>
 &nbsp;
@@ -12,7 +12,7 @@
 &nbsp;
 <a href="https://www.linkedin.com/in/amine-mabrouk"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 
-**You describe the product. I ship it — deployed, tested, documented.**
+**You describe the product. I ship it — tested, deployed, handed over working.**
 
 </div>
 
@@ -20,13 +20,13 @@
 
 ### What I actually do
 
-Most freelancers sell you a frontend and disappear when the database gets hard. I take the whole thing:
+**Projects break at the seams.** Designer to frontend, frontend to backend, backend to whoever deploys — that's where things get lost. There are no seams here.
 
 **Schema → API → interface → payments → CI → deploy → handover.**
 
-That means one person accountable for the product working, instead of three contractors pointing at each other. You get a live URL every week, not a status report.
+**One person is accountable for the whole product — and every week you get a live URL, not a status report.**
 
-I'm not a "prompt-to-app" shop. I use AI heavily to move faster — but I decide the architecture, what gets tested, and where the security boundary sits. Those decisions come with a written reason you can read later.
+Some clients hear "AI" and assume they're paying for prompts. Where it matters — schema, tests, security, what your product actually needs — the decisions are mine and documented.
 
 ---
 
@@ -91,22 +91,22 @@ Real products, still running, with the source public. The commit counts are ther
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🛒 Lumina — e-commerce storefront</h3>
-      <p><i>The store an actual shop would run on, not the tutorial version.</i></p>
-      <p><b>The problem:</b> "e-commerce demo" usually means product cards and a dead checkout button.</p>
-      <p><b>What I built:</b> catalog, cart drawer, Stripe Checkout, verified reviews, and an admin console for order fulfillment. Relational PostgreSQL models behind it, plus an end-to-end test suite wired into CI so a redesign can't quietly break checkout. Built in ten days.</p>
-      <p><code>Next.js</code> · <code>Supabase</code> · <code>Stripe</code> · <code>PostgreSQL</code> · <code>Playwright E2E</code></p>
-      <p><b>171 commits</b> · 90+ pull requests · E2E suite green in CI</p>
+      <h3>⚖️ MustacharAI — Arabic legal assistant</h3>
+      <p><i>RAG that cites the article instead of inventing one.</i></p>
+      <p><b>The problem:</b> Tunisian legal codes sit in PDFs written in formal Arabic. Generic chatbots answer confidently and cite nothing — which is worse than no answer when the question is legal.</p>
+      <p><b>What I built:</b> a retrieval pipeline over ~15 legal codes (~3,500 articles), Arabic-aware embeddings in ChromaDB, and an RTL interface that streams citations for every answer. Voice in, spoken answers out, and a provider you choose yourself — Groq, Gemini, or your own OpenRouter key from the UI.</p>
+      <p><code>FastAPI</code> · <code>ChromaDB</code> · <code>sentence-transformers</code> · <code>Next.js</code> · <code>RTL Arabic</code></p>
+      <p><b>72 commits</b> · Python + TypeScript · live</p>
       <p>
-        <a href="https://ecommerce-website-puce-beta.vercel.app/"><img src="https://img.shields.io/badge/LIVE_DEMO-4f46e5?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
+        <a href="https://mustachar-ai.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-4f46e5?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
         &nbsp;
-        <a href="https://github.com/AmineMabrouk17/ecommerce-website"><img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" /></a>
+        <a href="https://github.com/AmineMabrouk17/MustacharAI"><img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" /></a>
       </p>
     </td>
   </tr>
 </table>
 
-**Also shipped:** [GameStore TN](https://gamestore-tn.cast-cue.workers.dev) — a marketplace for the Tunisian gaming scene (PES/eFootball, Free Fire), built local-first around how payments actually work here · [my portfolio](https://my-portfolio-seven-chi-94.vercel.app) · [more repos](https://github.com/AmineMabrouk17?tab=repositories)
+**Also shipped:** [Lumina](https://ecommerce-website-puce-beta.vercel.app/) — a storefront with Stripe checkout, verified reviews and an admin console · [GameStore TN](https://gamestore-tn.cast-cue.workers.dev) — a marketplace for the Tunisian gaming scene, built local-first around how payments actually work here · [my portfolio](https://my-portfolio-seven-chi-94.vercel.app) · [more repos](https://github.com/AmineMabrouk17?tab=repositories)
 
 ---
 
@@ -120,24 +120,30 @@ Real products, still running, with the source public. The commit counts are ther
 
 **4. Handover that holds up.** Repo, environment variables, deploy steps and the decisions written down. You can hire anyone after me, and they'll understand the code — that's the point.
 
-**On AI:** I use it daily and I'll tell you exactly where. What I don't delegate is the schema, the tests, the security boundaries, or the judgement about what your product actually needs.
+*Fixed-price milestones. You approve each one before it starts — no hourly surprises.*
 
 ---
 
-### What I work with
+### Languages, and where to see them
 
-| Layer | Tools I reach for |
+No skills list you have to take on faith — every line points at a repo you can open.
+
+| Proven in my repos | Where |
 |---|---|
-| Frontend | **Next.js**, **React**, **TypeScript**, **Tailwind**, **Angular** |
-| Backend | **Laravel**, **FastAPI**, **Python**, **Rust** (when the workload needs it) |
-| Data | **PostgreSQL**, **Supabase + RLS**, **Cloudflare D1**, **ChromaDB** |
-| Payments | **Stripe Checkout**, order and fulfillment flows |
-| AI | **Gemini**, **Groq**, **OpenAI**, **Anthropic**, **RAG with citations**, streaming |
-| Deploy & CI | **Cloudflare Workers**, **Vercel**, **Docker**, **GitHub Actions**, **Playwright** |
+| **TypeScript · React · Next.js · Tailwind** | BudgetIQ, Lumina, Cast n Cue, crypto-stocks |
+| **Python** | BudgetIQ assistant backend, MustacharAI (FastAPI), CI scripts |
+| **Rust** | crypto-stocks market service — Dockerised on a VPS |
+| **Go** | gotn-shop — pluggable store scraper |
+| **Solidity** | TrustlessEscrow — Foundry, deployed on Sepolia |
+| **SQL / PostgreSQL** | row-level security policies and migrations in BudgetIQ and Lumina |
+| **Bash / Shell** | telegram-ci-notify, plus CI in every repo |
+| **Astro · HTML · CSS** | landing pages and this portfolio |
+
+**Services I integrate:** Stripe Checkout · Gemini, Groq, OpenAI, Anthropic · Cloudflare Workers + D1 · Supabase · Playwright · Docker · GitHub Actions
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,angular,laravel,flask,python,rust,postgres,supabase,cloudflare,stripe,docker,git,githubactions&perline=8" />
+    <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,python,rust,go,solidity,postgres,supabase,cloudflare,stripe,docker,git,githubactions&perline=8" />
   </a>
 </p>
 
@@ -145,7 +151,7 @@ Real products, still running, with the source public. The commit counts are ther
 
 ### Let's talk
 
-Tell me the product, the deadline, and what "done" means to you. I'll tell you honestly whether I'm the right person, what it takes, and what it costs.
+Send one short paragraph: what you're building, when you need it, and roughly what you can spend. You'll get an answer with whether I'm the right fit, what it takes, and the price — not a sales call.
 
 <a href="mailto:amx72001@gmail.com"><img src="https://img.shields.io/badge/EMAIL_ME-amx72001@gmail.com-2ea44f?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 &nbsp;
