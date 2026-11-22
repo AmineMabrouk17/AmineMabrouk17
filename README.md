@@ -4,11 +4,15 @@
 
 # Amine Mabrouk
 
-**Software engineer in Tunis.** I ship full-stack products — schemas, APIs, UI, automated deploys, and keeping them up when traffic hits.
+**Full-stack engineer in Tunis.** I build web products end to end — database schema, API, interface, payments, deploy — and hand them over working.
 
-[Portfolio](https://my-portfolio-seven-chi-94.vercel.app) · [Email](mailto:amx72001@gmail.com) · [LinkedIn](https://www.linkedin.com/in/amine-mabrouk) · [GitHub](https://github.com/AmineMabrouk17)
+<a href="mailto:amx72001@gmail.com"><img src="https://img.shields.io/badge/AVAILABLE_FOR_FREELANCE-2ea44f?style=for-the-badge&logo=gmail&logoColor=white" alt="Available for freelance work" /></a>
+&nbsp;
+<a href="https://my-portfolio-seven-chi-94.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-4f46e5?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/amine-mabrouk"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 
-<img src="https://readme-typing-svg.demolab.com/?lines=TypeScript+%2F+Next.js;Laravel+%2F+Angular;Python+%2F+Flask;RAG+that+cites+its+sources;shipped+not+spec'd&font=Fira+Code&center=true&width=460&height=44&duration=2400&pause=600&color=00f2fe&vCenter=true" alt="Typing SVG" />
+**You describe the product. I ship it — deployed, tested, documented.**
 
 </div>
 
@@ -16,60 +20,70 @@
 
 ### What I actually do
 
-I build products end-to-end. Not "I touched the frontend once" — I mean I design the schema, write the migrations, ship the API contract, build the UI, configure the CI/CD pipeline, and ensure it runs reliably in production.
+Most freelancers sell you a frontend and disappear when the database gets hard. I take the whole thing:
 
-Day-to-day: **TypeScript / Next.js**, **Angular**, **Laravel**, **Python**. I care about the boring parts that make software real — schemas that don't fall over under real data, auth that's actually secure (not "I'll add JWT and call it a day"), and features that work the moment a user clicks them, not three sprints later.
+**Schema → API → interface → payments → CI → deploy → handover.**
 
-I also ship things other people install, not just things they visit — an MIT GitHub Action, a Markdown-to-PDF resume tool, a legal RAG that answers in Arabic with citations.
+That means one person accountable for the product working, instead of three contractors pointing at each other. You get a live URL every week, not a status report.
 
-I use AI every day. I'm not pretending otherwise. But I decide what gets abstracted, what gets tested, and where the security boundary lives — not the model.
-
----
-
-### Currently
-
-- **Building** — [Crypto & Stocks Dashboard](https://crypto-stocks-web-taupe.vercel.app), a real-time market terminal with Binance WS streaming, multi-provider AI chat, and crowd-sourced price predictions.
-- **Maintaining** — [telegram-ci-notify](https://github.com/AmineMabrouk17/telegram-ci-notify), a dependency-free GitHub Actions → Telegram action, versioned and CI-tested.
-- **Learning** — by building. Every project I ship teaches me more than a tutorial ever did. My study plan is just a repo, a deploy, and a problem I haven't solved yet.
-- **Opinionated about** — Cloudflare Workers + D1 for small-to-medium apps. Most teams reach for a bloated VPS and Postgres server when a 50ms edge worker does the same job at 1/10th the complexity.
+I'm not a "prompt-to-app" shop. I use AI heavily to move faster — but I decide the architecture, what gets tested, and where the security boundary sits. Those decisions come with a written reason you can read later.
 
 ---
 
-### Shipped work
+### What I can build for you
 
-These aren't demo repos. Each one is live, deployed to production, and the source code is public.
+| You need | What I deliver |
+|---|---|
+| **A product, from zero** | Schema and migrations, auth, role-based access, API, UI, deploy. Working software in weeks, not a Figma file |
+| **A dashboard on live data** | WebSocket and market feeds, charts that don't lie, alerts, caching that survives real traffic |
+| **AI inside your product** | Chat assistants and RAG that cite their sources, streaming answers, multi-provider (Gemini · Groq · OpenAI · Anthropic) so you never depend on one vendor |
+| **An online store that takes money** | Stripe checkout, orders, admin fulfillment, verified reviews, stock handling — end to end, including the boring admin screens |
+| **Arabic / RTL products** | Right-to-left interfaces and Tunisian-market constraints handled from the first screen, not bolted on at the end |
+| **An app that stays cheap to run** | Cloudflare Workers + D1, serverless deploys, Docker on a VPS when you need it — and CI that catches breakage before your users do |
+
+---
+
+### Selected work
+
+Real products, still running, with the source public. The commit counts are there because I keep shipping after launch — not because I opened the repo once.
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>📈 Crypto & Stocks Dashboard</h3>
-      <p><i>The thing I'm most proud of.</i></p>
-      <p>Real-time market intelligence terminal — Binance WebSocket streaming, Yahoo Finance quotes, TradingView-style charts, browser-native price alerts, and a multi-provider AI chat assistant (Gemini · Groq · OpenAI · Anthropic) so you're not locked into one vendor.</p>
-      <p><code>Next.js</code> · <code>WebSocket</code> · <code>lightweight-charts</code> · <code>SWR</code> · <code>Turborepo</code></p>
+      <h3>💰 BudgetIQ — AI finance app</h3>
+      <p><i>Type a sentence, get a budget that updates itself.</i></p>
+      <p><b>The problem:</b> budget apps fail because logging every expense is tedious. People quit in week two.</p>
+      <p><b>What I built:</b> a conversational assistant that turns "I spent 45 dinars on groceries" into a confirmed transaction and an updated dashboard. Income, expenses and assets with a salary planner, multi-currency handling, and a data model locked down per user with PostgreSQL row-level security — self-hostable against your own Supabase project, no ads, no data harvesting.</p>
+      <p><code>Next.js 16</code> · <code>React 19</code> · <code>Supabase + RLS</code> · <code>Gemini / OpenRouter</code> · <code>Recharts</code></p>
+      <p><b>222 commits</b> over 3.5 months · 180+ pull requests</p>
+      <p>
+        <a href="https://budgetiq-two.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-4f46e5?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
+        &nbsp;
+        <a href="https://github.com/AmineMabrouk17/BudgetIQ"><img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" /></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📈 Crypto & Stocks — live market terminal</h3>
+      <p><i>Real-time data, done properly: no polling, no stale prices.</i></p>
+      <p><b>The problem:</b> market dashboards poll a public API every few seconds, then fall apart the moment traffic arrives.</p>
+      <p><b>What I built:</b> Binance WebSocket streaming for crypto, server-side proxies for Yahoo Finance stocks and ETFs, live charts, browser-native price alerts, and market signals from Polymarket crowd odds. A separate Rust service on a VPS handles the backend work — with ADRs, a glossary and a decision log in the repo, so the "why" survives.</p>
+      <p><code>Next.js</code> · <code>WebSocket</code> · <code>Rust</code> · <code>Turborepo</code> · <code>lightweight-charts</code> · <code>Vitest</code></p>
+      <p><b>152 commits</b> · 70+ pull requests · Rust + TypeScript monorepo</p>
       <p>
         <a href="https://crypto-stocks-web-taupe.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-4f46e5?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
         &nbsp;
         <a href="https://github.com/AmineMabrouk17/crypto-stocks"><img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" /></a>
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3>⚖️ MustacharAI</h3>
-      <p><i>Legal answers in Arabic, grounded in the actual codes.</i></p>
-      <p>RAG assistant over ~15 Tunisian legal codes — roughly 3,500 indexed articles. Answers in Arabic or Darija, cites the article it used, takes and speaks voice, and lets you bring your own provider (Groq · Gemini · OpenRouter key set from the UI).</p>
-      <p><code>FastAPI</code> · <code>ChromaDB</code> · <code>sentence-transformers</code> · <code>Next.js</code> · <code>RTL</code></p>
-      <p>
-        <a href="https://mustachar-ai.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-4f46e5?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
-        &nbsp;
-        <a href="https://github.com/AmineMabrouk17/MustacharAI"><img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" /></a>
-      </p>
-    </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🎬 Cast n Cue</h3>
-      <p><i>Because Trakt's UX makes me angry.</i></p>
-      <p>Episode-level watchlist running on edge architecture. TMDB/Trakt search, half-star ratings, private autosaved notes, and a watchlist roulette for when you can't decide what to start next.</p>
-      <p><code>Next.js</code> · <code>Cloudflare Workers</code> · <code>Cloudflare D1</code> · <code>Better Auth</code></p>
+      <h3>🎬 Cast n Cue — edge-hosted app</h3>
+      <p><i>A product I built because the existing tool annoyed me.</i></p>
+      <p><b>The problem:</b> trackers make episode-level watchlists painful, and most of them run on a server you have to pay for.</p>
+      <p><b>What I built:</b> episode-level tracking with search, half-star ratings, private notes that autosave without eating keystrokes, and a "what do I watch next" roulette. The whole thing runs on the edge — Workers + D1 — with Better Auth, so it stays fast and cheap at any traffic level.</p>
+      <p><code>Next.js</code> · <code>Cloudflare Workers</code> · <code>D1</code> · <code>Better Auth</code></p>
+      <p><b>219 commits</b> · 70+ pull requests</p>
       <p>
         <a href="https://cast-cue.cast-cue.workers.dev"><img src="https://img.shields.io/badge/LIVE_DEMO-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Live Demo" /></a>
         &nbsp;
@@ -77,34 +91,12 @@ These aren't demo repos. Each one is live, deployed to production, and the sourc
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>💰 BudgetIQ</h3>
-      <p><i>Open-source, AI-native, actually usable.</i></p>
-      <p>Budget planner where a conversational Gemini assistant turns "I spent 12 dinars on coffee" into a logged transaction and an updated dashboard. No tedious forms. No friction.</p>
-      <p><code>Next.js</code> · <code>Supabase</code> · <code>Gemini AI</code> · <code>Recharts</code></p>
-      <p>
-        <a href="https://budgetiq-two.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-4f46e5?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
-        &nbsp;
-        <a href="https://github.com/AmineMabrouk17/BudgetIQ"><img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" /></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎮 GameStore TN</h3>
-      <p><i>Built for the Tunisian gaming scene.</i></p>
-      <p>Marketplace for gaming accounts — PES/eFootball, Free Fire, and more — with secure listings and checkout. Built local-first to solve payment and verification issues for regional gamers.</p>
-      <p><code>Next.js</code> · <code>Cloudflare Workers</code> · <code>PostgreSQL</code> · <code>Tailwind</code></p>
-      <p>
-        <a href="https://gamestore-tn.cast-cue.workers.dev"><img src="https://img.shields.io/badge/LIVE_DEMO-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Live Demo" /></a>
-        &nbsp;
-        <a href="https://github.com/AmineMabrouk17/GameStore-TN"><img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" /></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🛒 Lumina — E-Commerce Storefront</h3>
-      <p><i>The full storefront, not the demo version.</i></p>
-      <p>Catalog, cart, Stripe Checkout, verified reviews, and admin order fulfillment. Complete end-to-end commerce architecture backed by relational PostgreSQL data models.</p>
-      <p><code>Next.js</code> · <code>Supabase</code> · <code>Stripe</code> · <code>PostgreSQL</code> · <code>Zustand</code></p>
+      <h3>🛒 Lumina — e-commerce storefront</h3>
+      <p><i>The store an actual shop would run on, not the tutorial version.</i></p>
+      <p><b>The problem:</b> "e-commerce demo" usually means product cards and a dead checkout button.</p>
+      <p><b>What I built:</b> catalog, cart drawer, Stripe Checkout, verified reviews, and an admin console for order fulfillment. Relational PostgreSQL models behind it, plus an end-to-end test suite wired into CI so a redesign can't quietly break checkout. Built in ten days.</p>
+      <p><code>Next.js</code> · <code>Supabase</code> · <code>Stripe</code> · <code>PostgreSQL</code> · <code>Playwright E2E</code></p>
+      <p><b>171 commits</b> · 90+ pull requests · E2E suite green in CI</p>
       <p>
         <a href="https://ecommerce-website-puce-beta.vercel.app/"><img src="https://img.shields.io/badge/LIVE_DEMO-4f46e5?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
         &nbsp;
@@ -112,85 +104,52 @@ These aren't demo repos. Each one is live, deployed to production, and the sourc
       </p>
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📄 Resumark</h3>
-      <p><i>Markdown in, ATS-safe A4 PDF out.</i></p>
-      <p>Resume editor that keeps your source as plain Markdown: live A4 preview, template switcher, an optional forced one-page mode, and print-native PDF export. No account, no lock-in — the file stays yours.</p>
-      <p><code>Next.js</code> · <code>Markdown</code> · <code>Print CSS</code> · <code>Local persistence</code></p>
-      <p>
-        <a href="https://resumark-eight.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-4f46e5?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
-        &nbsp;
-        <a href="https://github.com/AmineMabrouk17/Resumark"><img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" /></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⛓️ TrustlessEscrow</h3>
-      <p><i>Side experiment in on-chain dispute arbitration.</i></p>
-      <p>Trust-minimized escrow state machine deployed on Sepolia. Explores smart contract state transitions, buyer/seller fund locking, and third-party arbiter resolution.</p>
-      <p><code>Solidity</code> · <code>Foundry</code> · <code>wagmi</code> · <code>viem</code></p>
-      <p>
-        <a href="https://trustless-escrow-demo.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-4f46e5?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
-        &nbsp;
-        <a href="https://github.com/AmineMabrouk17/nextjs-solidity-escrow"><img src="https://img.shields.io/badge/SOURCE-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" /></a>
-      </p>
-    </td>
-  </tr>
 </table>
 
----
-
-### Open source
-
-**[telegram-ci-notify](https://github.com/AmineMabrouk17/telegram-ci-notify)** — GitHub Actions → Telegram in one composite action. MIT, ~250 lines of `bash` + `curl`, no third-party action to trust and nothing to install. Pushes, PRs, reviews, comments, tags and releases arrive as one compact message with buttons back to GitHub, and a notification failure warns instead of turning a green build red.
-
-```yaml
-- uses: AmineMabrouk17/telegram-ci-notify@v1
-  env:
-    TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-    TELEGRAM_TO: ${{ secrets.TELEGRAM_TO }}
-```
-
-`shellcheck` · `actionlint` · offline test suite · offline dry-run — all green on every push.
+**Also shipped:** [GameStore TN](https://gamestore-tn.cast-cue.workers.dev) — a marketplace for the Tunisian gaming scene (PES/eFootball, Free Fire), built local-first around how payments actually work here · [my portfolio](https://my-portfolio-seven-chi-94.vercel.app) · [more repos](https://github.com/AmineMabrouk17?tab=repositories)
 
 ---
 
-### Also built
+### How I work with a client
 
-| Project | What it is |
+**1. One call, then a scope.** We agree what ships in week one, week two, week three. You know the price before I write code.
+
+**2. A live URL every week.** Every change arrives as a pull request with its own preview deploy and screenshots of what changed. You click it on your phone and judge for yourself — no "trust me, it's done".
+
+**3. Tests where money and data live.** Checkout, auth and anything that writes to your database gets an automated test that runs in CI. If it breaks, I find out before you do.
+
+**4. Handover that holds up.** Repo, environment variables, deploy steps and the decisions written down. You can hire anyone after me, and they'll understand the code — that's the point.
+
+**On AI:** I use it daily and I'll tell you exactly where. What I don't delegate is the schema, the tests, the security boundaries, or the judgement about what your product actually needs.
+
+---
+
+### What I work with
+
+| Layer | Tools I reach for |
 |---|---|
-| [Silo](https://silo-umber.vercel.app) | Dual-phase compound interest & retirement drawdown calculator in TND — [source](https://github.com/AmineMabrouk17/Silo) |
-| [ThinkCode](https://github.com/AmineMabrouk17/ThinkCode) | Workspace for learning algorithms: keep the reasoning, not just the accepted solution |
-| [nanobrowser-free-ai](https://github.com/AmineMabrouk17/nanobrowser-free-ai) | A free, private AI browser agent setup — honest notes on what works and what doesn't |
-| [curator-studio](https://github.com/AmineMabrouk17/curator-studio) | Next.js + Cloudflare content curation studio |
-| [gotn-shop](https://github.com/AmineMabrouk17/gotn-shop) | Go store scraper with a pluggable `StoreScraper` per retailer |
-| [LinkedIn-Job-Description-Copier](https://github.com/AmineMabrouk17/LinkedIn-Job-Description-Copier) | Small extension that copies a job post as clean text |
-| [ExportLLMExtension](https://github.com/AmineMabrouk17/ExportLLMExtension) | Export your LLM conversations instead of re-typing them |
-| [text2excalidraw](https://github.com/AmineMabrouk17/text2excalidraw) | Describe a diagram, get an editable Excalidraw scene |
-| [lead-generation-landing-page](https://github.com/AmineMabrouk17/lead-generation-landing-page) | Astro landing page built for conversion, not for a template gallery |
-| [My-Portfolio](https://github.com/AmineMabrouk17/My-Portfolio) | The site behind the link at the top of this page |
-
----
-
-### What I reach for
-
-Not a generic "skills list" — the actual tools I pick when starting a new build.
-
-| For | I'd use | Why |
-|---|---|---|
-| Edge-hosted web app | **Next.js + Cloudflare Workers** | Sub-50ms cold starts without running expensive server instances |
-| Heavy backend & queues | **Laravel** | Life is too short to write custom queue & ORM boilerplate |
-| Fast APIs & Data scripts | **Python / Flask** | Lightweight, minimal overhead, straight to the logic |
-| Retrieval over documents | **FastAPI + ChromaDB + sentence-transformers** | Citations are a feature, and the vector store should not be a black box |
-| Real-time dashboards | **WebSocket + SWR + lightweight-charts** | Polling is an anti-pattern for live market data |
-| Relational data & auth | **PostgreSQL + Supabase / Better Auth** | Solid ACID guarantees and clean schema boundaries |
-| CI glue & notifications | **Bash + curl in a composite action** | One file to read, no supply chain to trust |
+| Frontend | **Next.js**, **React**, **TypeScript**, **Tailwind**, **Angular** |
+| Backend | **Laravel**, **FastAPI**, **Python**, **Rust** (when the workload needs it) |
+| Data | **PostgreSQL**, **Supabase + RLS**, **Cloudflare D1**, **ChromaDB** |
+| Payments | **Stripe Checkout**, order and fulfillment flows |
+| AI | **Gemini**, **Groq**, **OpenAI**, **Anthropic**, **RAG with citations**, streaming |
+| Deploy & CI | **Cloudflare Workers**, **Vercel**, **Docker**, **GitHub Actions**, **Playwright** |
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=angular,nextjs,react,ts,tailwind,nodejs,laravel,flask,cloudflare,postgres,supabase,python,go,solidity,docker,bash&perline=8" />
+    <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,angular,laravel,flask,python,rust,postgres,supabase,cloudflare,stripe,docker,git,githubactions&perline=8" />
   </a>
 </p>
+
+---
+
+### Let's talk
+
+Tell me the product, the deadline, and what "done" means to you. I'll tell you honestly whether I'm the right person, what it takes, and what it costs.
+
+<a href="mailto:amx72001@gmail.com"><img src="https://img.shields.io/badge/EMAIL_ME-amx72001@gmail.com-2ea44f?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/amine-mabrouk"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 
 ---
 
@@ -208,10 +167,6 @@ Not a generic "skills list" — the actual tools I pick when starting a new buil
   </a>
   <a href="https://github.com/AmineMabrouk17">
     <img src="./stats.svg" width="49%" alt="Stats" />
-  </a>
-  <br /><br />
-  <a href="https://github.com/AmineMabrouk17">
-    <img src="./top-langs.svg" width="49%" alt="Top Languages" />
   </a>
 </div>
 
