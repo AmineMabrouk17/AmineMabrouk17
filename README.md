@@ -20,11 +20,11 @@
 
 ### What I actually do
 
-Most projects fail where two people hand work to each other. The designer hands off to the frontend developer, who hands off to the backend developer, who hands off to whoever deploys. I do all of it, so there is no handoff to lose a requirement in.
+Projects lose requirements when work passes from a designer to a frontend developer, to a backend developer, to whoever deploys. I do every stage myself, so nothing is lost between them.
 
 **Schema → API → interface → payments → CI → deploy → handover.**
 
-One person is accountable for the whole product. Every week you get a live URL you can open and judge.
+One person is accountable for the whole product, and every week you get a live URL you can open and judge.
 
 Some clients hear "AI" and assume they are paying for prompts. The architecture, the tests, the security boundaries and the decision about what your product needs are mine, and I document them in the repository.
 
@@ -45,7 +45,7 @@ Some clients hear "AI" and assume they are paying for prompts. The architecture,
 
 ### Selected work
 
-These products are live, and the source is public. The commit counts show that I keep shipping after launch rather than opening a repository once.
+These products are live, and the source is public. The commit counts show that I keep shipping after launch.
 
 <table width="100%">
   <tr>
@@ -122,8 +122,6 @@ I also built [Lumina](https://ecommerce-website-puce-beta.vercel.app/), a storef
 
 ### Languages, and where to see them
 
-Every line points at a repository you can open.
-
 | Proven in my repos | Where |
 |---|---|
 | **TypeScript · React · Next.js · Tailwind** | BudgetIQ, Lumina, Cast n Cue, crypto-stocks |
@@ -147,7 +145,7 @@ I integrate Stripe Checkout, Gemini, Groq, OpenAI, Anthropic, Cloudflare Workers
 
 ### Talk to me
 
-Send one short paragraph: what you are building, when you need it, and roughly what you can spend. I will answer with whether I am the right fit, what it takes and the price. You do not get a sales call.
+Send one short paragraph: what you are building, when you need it, and roughly what you can spend. I will answer with whether I am the right fit, what it takes and the price. There is no sales call.
 
 <a href="mailto:amx72001@gmail.com"><img src="https://img.shields.io/badge/EMAIL_ME-amx72001@gmail.com-2ea44f?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 &nbsp;

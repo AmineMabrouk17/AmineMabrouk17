@@ -97,3 +97,11 @@
 **Why:** The user installed the skill and asked for the profile to be unslopped. The draft had the usual tells in almost every paragraph: em dashes as rhythm, "not X but Y" contrasts, tailing negations such as "no hourly surprises", and bold labels glued to the start of sentences.
 
 **Alternative considered:** Keeping the short punchy fragments ("Projects break at the seams."). Rejected because the skill applies its sentence rules to all prose outside quotes, and the same claim survives as a complete sentence.
+
+## 2026-11-22 — Humanizer pass on the profile prose
+
+**Decision:** Five sentences were rewritten with the `humanizer` skill: the repeated "hands off" chain, a one-line closer, a "rather than" contrast in the Selected work intro, a heading-restating line above the languages table, and a clipped "no sales call" closer.
+
+**Why:** The user installed the skill and asked for it. After the earlier unslop pass there were no dashes, fragments or stock words left, so only these five structural tells survived.
+
+**Alternative considered:** Restoring contractions, which humanizer permits but unslop banned. Not applied, because the user asked only for the humanizer pass; offered separately.
